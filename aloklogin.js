@@ -1,4 +1,4 @@
 const a = 10
-let b = 5
+let b = 20
 
 console.log(a+b);
