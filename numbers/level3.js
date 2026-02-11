@@ -1,11 +1,23 @@
 /*Q1: The Discount Checker Create a variable price = 100. 
 If the price is greater than 50, subtract 10 from it. Otherwise, keep it the same. Output the final price.*/
 
+let price = 100
+if ( price > 50 ){
+    price = price - 10
+}
+console.log (price);
 
 
 /*Q2: Secret Password Create a variable userInput = "1234". 
 Write an if statement: if the input is "1234", print "Access Granted." Otherwise, print "Access Denied."*/
-
+let password = "1234"
+if (password = "1234")
+{
+    console.log ("access success")
+}
+else{
+    console.log ("denied")
+}
 
 
 /*Q3: Temperature Check Create a variable temp = 15. 
