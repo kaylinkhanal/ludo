@@ -6,9 +6,18 @@ let c = a + b
 console.log(c)
 
 //Q2. Create a variable called d and assign it the value of a multiplied by b
+ let d = a * b
+ console.log("D:", d);
+
 
 
 //Q3. convert the type of age to number
 const age = '50'
+let ageInNumber=Number(age);
+console.log(typeof(ageInNumber));
+
 
 //Q4 caclualte the remainder of 10 divided by 3 and assign it to a variable called remainder
+let reminder=5%3;
+console.log("reminder is:", reminder);
+
