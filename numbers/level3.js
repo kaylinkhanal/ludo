@@ -22,18 +22,36 @@ else{
 
 /*Q3: Temperature Check Create a variable temp = 15. 
 If the temp is below 20, print "Wear a jacket." If it's 20 or above, print "T-shirt weather."*/
+let temp = 15
+if (temp > 20)
+{
+    console.log ("wear jacket")
+}
+else{
+    console.log ("tshirt weather")
+}
+
+
+/* Q4: The "No-Negative" Price Imagine a user has a discount code that is bigger than the price of the item.
+ Create a variable totalPrice = -15. Because a price can't be negative (you wouldn't pay a customer to buy something!), 
+ use a math method to turn that -15 into a positive 15.*/ 
+
+ const totalprice = -15
+
+ const output = Math.abs(totalprice)
+ console.log(output)
 
 
 
-/*Q4: The Name Fixer Create a variable username = "jOhN". 
-Write code to ensure the first letter is capitalized and the rest are lowercase. (Output should be "John").*/
+ /** Q5: The Fuel Gauge (Rounding Down) Create a variable litersOfGas = 45.87. 
+   You want to show the user only the whole number (the full liters) without any decimals, 
+   but you don't want to round up. You want to "chop off" the decimals so it shows 45. */
+
+   const litersOfGas = 45.87
+   const answer = Math.floor(litersOfGas)
+   console.log (answer)
+
+   
 
 
 
-/*Q5: The Range Checker Create a variable score = 85.
- Write an if statement that prints "Pass" if the score is 50 or higher, and "Fail" if it is lower.*/
-
-
-
-/*Q6: Array Basics Create an array of three fruits.
- Add a fourth fruit to the end of the list and then remove the first fruit.*/
