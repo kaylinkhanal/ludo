@@ -6,9 +6,8 @@ console.log(number.toFixed(2))
 
 
 const age = -30
-if (age < 0) {
-    console.log(30)
-}
+const output =Math.abs(age)
+console.log(output)
 
 // Q2 age cannot be negative, output should be 30
 
