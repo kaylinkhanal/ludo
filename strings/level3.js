@@ -5,6 +5,7 @@ const newgretting = gretting.trim()
 console.log(newgretting)
 
 
+
 /*Q2: The "Includes" Test const hobby = "I love coding with JavaScript"; 
 Write a line of code to check if the word "coding" exists inside the hobby string. (It should return true).*/
 const hobby = "I love coding with JavaScript"
