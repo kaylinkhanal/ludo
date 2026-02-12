@@ -5,6 +5,7 @@ const sentence = 'Ronaldo is the best football player in the world. He has won m
 let output = sentence.replace('Ronaldo','messi')
 console.log(output)
 
+
 //2. Convert the entire sentence to uppercase letters
 const newsentence = sentence.toUpperCase();
 console.log(newsentence)
