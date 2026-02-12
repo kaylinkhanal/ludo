@@ -1,6 +1,5 @@
 const name = 'Ram Thapa'
 
-
 // Q1. output should be 'Hello Ram Thapa, welcome to JavaScript!'
 const hello = `Hello ${name}, welcome to JavaScript!`
 console.log(hello)   
